@@ -52,6 +52,8 @@
 ​        **Principal**：身份信息是主体（subject）进行身份认证的标识，标识必须具有唯一性，如用户名、手机号、邮箱地址等，一个主体可以有多个身份，但是必须有一个主身份（Primary Principal）。
 
 ​        **credential**：凭证信息：是只有主体自己知道的安全信息，如密码、证书等。
+
+
 ![image](https://user-images.githubusercontent.com/56987741/116052040-d51d0780-a6ab-11eb-8d02-414cdc27a2e8.png)
 
 ### 3、授权概念
