@@ -2074,7 +2074,7 @@ order-list.jsp订单列表
 
 拷贝shiro-day01-07web新建shiro-day01-08web-java
 
-![1580799013486](image/1580799013486.png)
+![1580799013486](1580799013486.png)
 
 ###### 【1.4.2】修改shiro.ini
 
@@ -3056,7 +3056,7 @@ public class UserAdapterImpl implements UserAdapter {
 
 #### 【1】图解
 
-![1581064915787](image/1581064915787.png)
+![1581064915787](1581064915787.png)
 
 #### 【2】原理分析
 
@@ -3222,7 +3222,7 @@ public class ShiroConfig {
 
 Shiro内置了很多默认的过滤器，比如身份验证、授权等相关的。默认过滤器可以参考org.apache.shiro.web.filter.mgt.DefaultFilter中的枚举过滤器
 
-![1580542509773](image/1580542509773.png)
+![1580542509773](1580542509773.png)
 
 #### 【2】过滤器链
 
@@ -4370,7 +4370,7 @@ public class UserBridgeServiceImpl implements UserBridgeService {
 
 我们实现的realm的集中式缓存，那么还有什么问题没有解决呢？
 
-![1584603830411](image/1584603830411.png)
+![1584603830411](1584603830411.png)
 
 用户在点击退出时候，我们还没有清理缓存！如果不清理，在用户量大的时候，可能会有大量的垃圾信息在redis中存在。
 
@@ -6273,7 +6273,7 @@ springboot-shiro-parent:项目统一jar和plugIn的POM定义
 
 ​		生产业务服务化生产者
 
-![1582711000178](image/1582711000178.png)
+![1582711000178](1582711000178.png)
 
 
 
@@ -7962,7 +7962,7 @@ public class ResourceBridgeServiceImpl implements ResourceBridgeService {
 
 #### 【1】原理分析
 
-![1582880165581](image/1582880165581.png)
+![1582880165581](1582880165581.png)
 
 ​	1、依赖springboot-shiro-framework-client实现认证、鉴权、过滤器定义、会话统一、realm缓存等功能
 
@@ -7986,7 +7986,7 @@ public class ResourceBridgeServiceImpl implements ResourceBridgeService {
 
 ​		4、定义业务端dubbo服务端接口、目标方法、传入阐述、轮训算法、超时时间、重试次数等参数，这些内容会在gateway-service项目中解析
 
-![1582704703769](image/1582704703769.png)
+![1582704703769](1582704703769.png)
 
 
 
@@ -8121,7 +8121,7 @@ public class ResourceBridgeServiceImpl implements ResourceBridgeService {
 
 ##### 【2.3】动态消费端
 
-![1582882166870](image/1582882166870.png)
+![1582882166870](1582882166870.png)
 
 ```properties
 CacheWare:缓存仓库
@@ -8634,7 +8634,7 @@ public class GateWayController {
 
 #### 【1】模块依赖关系
 
-![1582881763304](image/1582881763304.png)
+![1582881763304](1582881763304.png)
 
 #### 【2】原理分析
 
@@ -8642,7 +8642,7 @@ public class GateWayController {
 
 资源：
 
-![1582704703769](image/1582704703769.png)
+![1582704703769](1582704703769.png)
 
 1、定义了网关systemcode，用以区分不同网关、系统
 
@@ -8654,7 +8654,7 @@ public class GateWayController {
 
 角色：
 
-![1582704738045](image/1582704738045.png)
+![1582704738045](1582704738045.png)
 
 1、定义角色的唯一标识，作为过滤器过滤的标记
 
@@ -8662,7 +8662,7 @@ public class GateWayController {
 
 用户：
 
-![1582704772681](image/1582704772681.png)
+![1582704772681](1582704772681.png)
 
 1、用户基本信息
 
@@ -8670,7 +8670,7 @@ public class GateWayController {
 
 过滤器链：
 
-![1582704833744](image/1582704833744.png)
+![1582704833744](1582704833744.png)
 
 1、为所有系统定义统一的过滤器链路管理（可以扩展：按资源类型那样为每个网关系统定义过滤器链）
 
